@@ -11,57 +11,58 @@ namespace PDFFormFiller.APIObject
     public partial class FormData
     {
         [Description("EMP5624_E[0].Page1[0].Yes_business[0]")]
-        public bool does_position_appear_on_GTO_yes { get; set; } = true;
+        public bool does_position_appear_on_GTO_yes = true;
+
         [Description("EMP5624_E[0].Page1[0].No_business[0]")]
-        public bool does_position_appear_on_GTO_no { get; set; } = false;
+        public bool does_position_appear_on_GTO_no = false;
         [Description("EMP5624_E[0].Page1[0].Yes_inn[0]")]
-        public bool? are_referred_toGTO_yes { get; set; } = true;
+        public bool? are_referred_toGTO_yes { get; set; }= true;
         [Description("EMP5624_E[0].Page1[0].No_inn[0]")]
-        public bool? are_referred_toGTO_no { get; set; } = false;
+        public bool? are_referred_toGTO_no = false;
         [Description("EMP5624_E[0].Page1[0].txtF_des_part[0]")]
-        public string ref_partner_org_name { get; set; } = "Chipotle";
+        public string ref_partner_org_name = "Chipotle";
         [Description("EMP5624_E[0].Page1[0].txtF_first_name[0]")]
-        public string ref_partner_f_name { get; set; } = "Terrance";
+        public string ref_partner_f_name = "Terrance";
         [Description("EMP5624_E[0].Page1[0].txtF_mid_name[0]")]
-        public string ref_partner_m_name { get; set; } = "Kwame";
+        public string ref_partner_m_name = "Kwame";
         [Description("EMP5624_E[0].Page1[0].txtF_last_name[0]")]
-        public string ref_partner_l_name { get; set; } = "Traylor";
+        public string ref_partner_l_name = "Traylor";
         [Description("EMP5624_E[0].Page1[0].txtF_phone_number[0]")]
-        public string ref_partner_tel_no_with_ext { get; set; } = "+1 650-267-8309";
+        public string ref_partner_tel_no_with_ext = "+1 650-267-8309";
         [Description("EMP5624_E[0].Page1[0].txtF_alternate_phone[0]")]
-        public string ref_partner_alt_tel_no_with_ext { get; set; } = "401-406-7588";
+        public string ref_partner_alt_tel_no_with_ext = "401-406-7588";
         [Description("EMP5624_E[0].Page1[0].txtF_fax_number[0]")]
-        public string ref_partner_fax { get; set; } = "401-285-3902";
+        public string ref_partner_fax = "401-285-3902";
         [Description("EMP5624_E[0].Page1[0].txtF_Email[0]")]
-        public string ref_partner_email { get; set; } = "lola1985@gmail.com";
+        public string ref_partner_email = "lola1985@gmail.com";
         [Description("EMP5624_E[0].Page1[0].rb_language_oral[0]")]
-        public bool? ref_partner_pref_lang_talk { get; set; } = true;
+        public bool? ref_partner_pref_lang_talk = true;
         [Description("EMP5624_E[0].Page1[0].rb_language_written[0]")]
-        public bool? ref_partner_pref_lang_write { get; set; } = true;
+        public bool? ref_partner_pref_lang_write = true;
         [Description("EMP5624_E[0].Page1[0].txtF_first_name2[0]")]
-        public string alt_ref_partner_f_name { get; set; } = "Joseph ";
+        public string alt_ref_partner_f_name = "Joseph ";
         [Description("EMP5624_E[0].Page1[0].txtF_mid_name2[0]")]
-        public string alt_ref_partner_m_name { get; set; } = "Eben";
+        public string alt_ref_partner_m_name = "Eben";
         [Description("EMP5624_E[0].Page1[0].txtF_last_name2[0]")]
-        public string alt_ref_partner_l_name { get; set; } = "Elam";
+        public string alt_ref_partner_l_name = "Elam";
         [Description("EMP5624_E[0].Page1[0].txtF_phone_number2[0]")]
-        public string alt_ref_partner_tel_no_with_ext { get; set; } = "+1 401-285-3902";
+        public string alt_ref_partner_tel_no_with_ext = "+1 401-285-3902";
         [Description("EMP5624_E[0].Page1[0].txtF_alternate_phone2[0]")]
-        public string alt_ref_partner_alt_tel_no { get; set; } = "+1 401-285-3902";
+        public string alt_ref_partner_alt_tel_no = "+1 401-285-3902";
         [Description("EMP5624_E[0].Page1[0].txtF_fax_number2[0]")]
-        public string alt_ref_partner_fax { get; set; } = "401-285-3902";
+        public string alt_ref_partner_fax = "401-285-3902";
         [Description("EMP5624_E[0].Page1[0].txtF_Email2[0]")]
-        public string alt_ref_partner_email { get; set; } = "TerranceKTraylor@teleworm.us";
+        public string alt_ref_partner_email = "TerranceKTraylor@teleworm.us";
         [Description("EMP5624_E[0].Page1[0].rb_language_oral2[0]")]
-        public bool alt_ref_partner_pref_lang_talk { get; set; } = true;
+        public bool alt_ref_partner_pref_lang_talk = true;
         [Description("EMP5624_E[0].Page1[0].rb_language_written2[0]")]
-        public bool alt_ref_partner_pref_lang_write_ { get; set; } = true;
+        public bool alt_ref_partner_pref_lang_write_ = true;
         //there appears to be a RP in the middle of the 
         //numbers so the separation will have to be done in API
         [Description("EMP5624_E[0].Page2[0].num_Company_Code[0]")]
-        public string emp_CRAP_deduct_acc_no_1st_part { get; set; } = "40128539033";
+        public string emp_CRAP_deduct_acc_no_1st_part = "40128539033";
         [Description("EMP5624_E[0].Page2[0].num_Company_Code[1]")]
-        public string emp_CRAP_deduct_acc_no_2nd_part { get; set; } = "4015";
+        public string emp_CRAP_deduct_acc_no_2nd_part = "4015";
         [Description("EMP5624_E[0].Page2[0].txtF_Emp_Legal[0]")]
         public string business_legal_name { get; set; }
         [Description("EMP5624_E[0].Page2[0].txtF_Mail_Adress1[0]")]
@@ -91,17 +92,17 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page2[0].txtF_Employer_Web_Address[0]")]
         public string business_website { get; set; }
         [Description("EMP5624_E[0].Page2[0].txtF_Employer_Date_Business[0]")]
-        public string date_business_started { get; set; } = "2002-05-13";
+        public string date_business_started = "2002-05-13";
         [Description("EMP5624_E[0].Page2[0].cb_individual[0]")]
-        public bool business_type_sole_prop { get; set; } = false;
+        public bool business_type_sole_prop = false;
         [Description("EMP5624_E[0].Page2[0].cb_partnership[0]")]
-        public bool business_type_partnership { get; set; } = true;
+        public bool business_type_partnership = true;
         [Description("EMP5624_E[0].Page2[0].cb_society[0]")]
-        public bool business_type_corporation { get; set; } = false;
+        public bool business_type_corporation = false;
         [Description("EMP5624_E[0].Page2[0].cb_sole_propietor[0]")]
-        public bool business_type_co_operative { get; set; } = false;
+        public bool business_type_co_operative = false;
         [Description("EMP5624_E[0].Page2[0].cb_not_profit[0]")]
-        public bool business_type_non_profit { get; set; } = false;
+        public bool business_type_non_profit = false;
         [Description("EMP5624_E[0].Page2[0].cb_registred[0]")]
         public bool business_type_registered_charity { get; set; }
         [Description("EMP5624_E[0].Page2[0].txtF_amout_employees[0]")]
@@ -795,9 +796,9 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page12[0].txtF_First_Name1[0]")]
         public string worker_1_first_name { get; set; }
         [Description("EMP5624_E[0].Page12[0].rb_Gender1[0]")]
-        public string worker_1_gender { get; set; } = "Male";
+        public string worker_1_gender = "Male";
         [Description("EMP5624_E[0].Page12[0].txtF_Date_of_Birth1[0]")]
-        public string worker_1_date_of_birth { get; set; } = "1988-06-23";
+        public string worker_1_date_of_birth = "1988-06-23";
         [Description("EMP5624_E[0].Page12[0].txtF_Citizenship1[0]")]
         public string worker_1_citizenship { get; set; }
         [Description("EMP5624_E[0].Page12[0].txtF_City1[0]")]
@@ -821,9 +822,9 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page12[0].txtF_First_Name2[0]")]
         public string worker_2_first_name { get; set; }
         [Description("EMP5624_E[0].Page12[0].rb_Gender2[0]")]
-        public string worker_2_gender { get; set; } = "Male";
+        public string worker_2_gender = "Male";
         [Description("EMP5624_E[0].Page12[0].txtF_Date_of_Birth2[0]")]
-        public string worker_2_date_of_birth { get; set; } = "1988-06-23";
+        public string worker_2_date_of_birth = "1988-06-23";
         [Description("EMP5624_E[0].Page12[0].txtF_Citizenship1[1]")]
         public string worker_2_citizenship { get; set; }
         [Description("EMP5624_E[0].Page12[0].txtF_City2[0]")]
@@ -847,9 +848,9 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page12[0].txtF_First_Name2[1]")]
         public string worker_3_first_name { get; set; }
         [Description("EMP5624_E[0].Page12[0].rb_Gender3[0]")]
-        public string worker_3_gender { get; set; } = "Male";
+        public string worker_3_gender = "Male";
         [Description("EMP5624_E[0].Page12[0].txtF_Date_of_Birth3[0]")]
-        public string worker_3_date_of_birth { get; set; } = "1988-06-23";
+        public string worker_3_date_of_birth = "1988-06-23";
         [Description("EMP5624_E[0].Page12[0].txtF_Citizenship3[0]")]
         public string worker_3_citizenship { get; set; }
         [Description("EMP5624_E[0].Page12[0].txtF_City3[0]")]
@@ -873,9 +874,9 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page13[0].txtF_First_Name4[0]")]
         public string worker_4_first_name { get; set; }
         [Description("EMP5624_E[0].Page13[0].rb_Gender4[0]")]
-        public string worker_4_gender { get; set; } = "Male";
+        public string worker_4_gender = "Male";
         [Description("EMP5624_E[0].Page13[0].txtF_Date_of_Birth4[0]")]
-        public string worker_4_date_of_birth { get; set; } = "1988-06-23";
+        public string worker_4_date_of_birth = "1988-06-23";
         [Description("EMP5624_E[0].Page13[0].txtF_Citizenship4[0]")]
         public string worker_4_citizenship { get; set; }
         [Description("EMP5624_E[0].Page13[0].txtF_City4[0]")]
@@ -899,9 +900,9 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page13[0].txtF_First_Name5[0]")]
         public string worker_5_first_name { get; set; }
         [Description("EMP5624_E[0].Page13[0].rb_Gender5[0]")]
-        public string worker_5_gender { get; set; } = "Male";
+        public string worker_5_gender = "Male";
         [Description("EMP5624_E[0].Page13[0].txtF_Date_of_Birth5[0]")]
-        public string worker_5_date_of_birth { get; set; } = "1988-06-23";
+        public string worker_5_date_of_birth = "1988-06-23";
         [Description("EMP5624_E[0].Page13[0].txtF_Citizenship5[0]")]
         public string worker_5_citizenship { get; set; }
         [Description("EMP5624_E[0].Page13[0].txtF_City5[0]")]

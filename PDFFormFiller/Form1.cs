@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PDFFormFiller.APIObject;
+using PDFFormFiller.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,13 @@ namespace PDFFormFiller
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var formatPDF = new FormatPDF();
+            formatPDF.fillPDF();
+            MessageBox.Show("The form has been sucessfully filled and can be found on your desktop with the name filledForm");
         }
     }
 }
