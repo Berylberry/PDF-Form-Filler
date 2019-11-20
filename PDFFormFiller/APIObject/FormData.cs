@@ -379,31 +379,379 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page6[0].rb_conflict[1]")]
         public bool does_org_have_active_LMBP { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string what_mandatory_achievement_by_hiring_TFW { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_milestone_1 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_target_1 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_start_date_1 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_end_date_1 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_milestone_2 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_target_2 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_start_date_2 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_end_date_2 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_milestone_3 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_target_3 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_start_date_3 { get; set; }
         [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string mandatory_end_date_3 { get; set; }
+        [Description("")]
+        public string mandatory_milestone_4 { get; set; }
+        [Description("")]
+        public string mandatory_target_4 { get; set; }
+        [Description("")]
+        public string mandatory_start_date_4 { get; set; }
+        [Description("")]
+        public string mandatory_end_date_4 { get; set; }
+        [Description("")]
+        public string mandatory_milestone_5 { get; set; }
+        [Description("")]
+        public string mandatory_target_5 { get; set; }
+        [Description("")]
+        public string mandatory_start_date_5 { get; set; }
+        [Description("")]
+        public string mandatory_end_date_5 { get; set; }
+        [Description("")]
+        public string mandatory_milestone_6 { get; set; }
+        [Description("")]
+        public string mandatory_target_6 { get; set; }
+        [Description("")]
+        public string mandatory_start_date_6 { get; set; }
+        [Description("")]
+        public string mandatory_end_date_6 { get; set; }
+        [Description("")]
+        public string what_complementary_1_achievement_by_hiring_TFW { get; set; }
+        [Description("")]
+        public string complementary_1_milestone_1 { get; set; }
+        [Description("")]
+        public string complementary_1_target_1 { get; set; }
+        [Description("")]
+        public string complementary_1_start_date_1 { get; set; }
+        [Description("")]
+        public string complementary_1_end_date_1 { get; set; }
+        [Description("")]
+        public string complementary_1_milestone_2 { get; set; }
+        [Description("")]
+        public string complementary_1_target_2 { get; set; }
+        [Description("")]
+        public string complementary_1_start_date_2 { get; set; }
+        [Description("")]
+        public string complementary_1_end_date_2 { get; set; }
+        [Description("")]
+        public string complementary_1_milestone_3 { get; set; }
+        [Description("")]
+        public string complementary_1_target_3 { get; set; }
+        [Description("")]
+        public string complementary_1_start_date_3 { get; set; }
+        [Description("")]
+        public string complementary_1_end_date_3 { get; set; }
+        [Description("")]
+        public string complementary_1_milestone_4 { get; set; }
+        [Description("")]
+        public string complementary_1_target_4 { get; set; }
+        [Description("")]
+        public string complementary_1_start_date_4 { get; set; }
+        [Description("")]
+        public string complementary_1_end_date_4 { get; set; }
+        [Description("")]
+        public string complementary_1_milestone_5 { get; set; }
+        [Description("")]
+        public string complementary_1_target_5 { get; set; }
+        [Description("")]
+        public string complementary_1_start_date_5 { get; set; }
+        [Description("")]
+        public string complementary_1_end_date_5 { get; set; }
+        [Description("")]
+        public string complementary_1_milestone_6 { get; set; }
+        [Description("")]
+        public string complementary_1_target_6 { get; set; }
+        [Description("")]
+        public string complementary_1_start_date_6 { get; set; }
+        [Description("")]
+        public string complementary_1_end_date_6 { get; set; }
+        [Description("")]
+        public string what_complementary_2_achievement_by_hiring_TFW { get; set; }
+        [Description("")]
+        public string complementary_2_milestone_1 { get; set; }
+        [Description("")]
+        public string complementary_2_target_1 { get; set; }
+        [Description("")]
+        public string complementary_2_start_date_1 { get; set; }
+        [Description("")]
+        public string complementary_2_end_date_1 { get; set; }
+        [Description("")]
+        public string complementary_2_milestone_2 { get; set; }
+        [Description("")]
+        public string complementary_2_target_2 { get; set; }
+        [Description("")]
+        public string complementary_2_start_date_2 { get; set; }
+        [Description("")]
+        public string complementary_2_end_date_2 { get; set; }
+        [Description("")]
+        public string complementary_2_milestone_3 { get; set; }
+        [Description("")]
+        public string complementary_2_target_3 { get; set; }
+        [Description("")]
+        public string complementary_2_start_date_3 { get; set; }
+        [Description("")]
+        public string complementary_2_end_date_3 { get; set; }
+        [Description("")]
+        public string complementary_2_milestone_4 { get; set; }
+        [Description("")]
+        public string complementary_2_target_4 { get; set; }
+        [Description("")]
+        public string complementary_2_start_date_4 { get; set; }
+        [Description("")]
+        public string complementary_2_end_date_4 { get; set; }
+        [Description("")]
+        public string complementary_2_milestone_5 { get; set; }
+        [Description("")]
+        public string complementary_2_target_5 { get; set; }
+        [Description("")]
+        public string complementary_2_start_date_5 { get; set; }
+        [Description("")]
+        public string complementary_2_end_date_5 { get; set; }
+        [Description("")]
+        public string complementary_2_milestone_6 { get; set; }
+        [Description("")]
+        public string complementary_2_target_6 { get; set; }
+        [Description("")]
+        public string complementary_2_start_date_6 { get; set; }
+        [Description("")]
+        public string complementary_2_end_date_6 { get; set; }
+        [Description("")]
+        public string what_complementary_3_achievement_by_hiring_TFW { get; set; }
+        [Description("")]
+        public string complementary_3_milestone_1 { get; set; }
+        [Description("")]
+        public string complementary_3_target_1 { get; set; }
+        [Description("")]
+        public string complementary_3_start_date_1 { get; set; }
+        [Description("")]
+        public string complementary_3_end_date_1 { get; set; }
+        [Description("")]
+        public string complementary_3_milestone_2 { get; set; }
+        [Description("")]
+        public string complementary_3_target_2 { get; set; }
+        [Description("")]
+        public string complementary_3_start_date_2 { get; set; }
+        [Description("")]
+        public string complementary_3_end_date_2 { get; set; }
+        [Description("")]
+        public string complementary_3_milestone_3 { get; set; }
+        [Description("")]
+        public string complementary_3_target_3 { get; set; }
+        [Description("")]
+        public string complementary_3_start_date_3 { get; set; }
+        [Description("")]
+        public string complementary_3_end_date_3 { get; set; }
+        [Description("")]
+        public string complementary_3_milestone_4 { get; set; }
+        [Description("")]
+        public string complementary_3_target_4 { get; set; }
+        [Description("")]
+        public string complementary_3_start_date_4 { get; set; }
+        [Description("")]
+        public string complementary_3_end_date_4 { get; set; }
+        [Description("")]
+        public string complementary_3_milestone_5 { get; set; }
+        [Description("")]
+        public string complementary_3_target_5 { get; set; }
+        [Description("")]
+        public string complementary_3_start_date_5 { get; set; }
+        [Description("")]
+        public string complementary_3_end_date_5 { get; set; }
+        [Description("")]
+        public string complementary_3_milestone_6 { get; set; }
+        [Description("")]
+        public string complementary_3_target_6 { get; set; }
+        [Description("")]
+        public string complementary_3_start_date_6 { get; set; }
+        [Description("")]
+        public string complementary_3_end_date_6 { get; set; }
+        [Description("")]
+        public string what_complementary_4_achievement_by_hiring_TFW { get; set; }
+        [Description("")]
+        public string complementary_4_milestone_1 { get; set; }
+        [Description("")]
+        public string complementary_4_target_1 { get; set; }
+        [Description("")]
+        public string complementary_4_start_date_1 { get; set; }
+        [Description("")]
+        public string complementary_4_end_date_1 { get; set; }
+        [Description("")]
+        public string complementary_4_milestone_2 { get; set; }
+        [Description("")]
+        public string complementary_4_target_2 { get; set; }
+        [Description("")]
+        public string complementary_4_start_date_2 { get; set; }
+        [Description("")]
+        public string complementary_4_end_date_2 { get; set; }
+        [Description("")]
+        public string complementary_4_milestone_3 { get; set; }
+        [Description("")]
+        public string complementary_4_target_3 { get; set; }
+        [Description("")]
+        public string complementary_4_start_date_3 { get; set; }
+        [Description("")]
+        public string complementary_4_end_date_3 { get; set; }
+        [Description("")]
+        public string complementary_4_milestone_4 { get; set; }
+        [Description("")]
+        public string complementary_4_target_4 { get; set; }
+        [Description("")]
+        public string complementary_4_start_date_4 { get; set; }
+        [Description("")]
+        public string complementary_4_end_date_4 { get; set; }
+        [Description("")]
+        public string complementary_4_milestone_5 { get; set; }
+        [Description("")]
+        public string complementary_4_target_5 { get; set; }
+        [Description("")]
+        public string complementary_4_start_date_5 { get; set; }
+        [Description("")]
+        public string complementary_4_end_date_5 { get; set; }
+        [Description("")]
+        public string complementary_4_milestone_6 { get; set; }
+        [Description("")]
+        public string complementary_4_target_6 { get; set; }
+        [Description("")]
+        public string complementary_4_start_date_6 { get; set; }
+        [Description("")]
+        public string complementary_4_end_date_6 { get; set; }
+        [Description("")]
+        public string what_complementary_5_achievement_by_hiring_TFW { get; set; }
+        [Description("")]
+        public string complementary_5_milestone_1 { get; set; }
+        [Description("")]
+        public string complementary_5_target_1 { get; set; }
+        [Description("")]
+        public string complementary_5_start_date_1 { get; set; }
+        [Description("")]
+        public string complementary_5_end_date_1 { get; set; }
+        [Description("")]
+        public string complementary_5_milestone_2 { get; set; }
+        [Description("")]
+        public string complementary_5_target_2 { get; set; }
+        [Description("")]
+        public string complementary_5_start_date_2 { get; set; }
+        [Description("")]
+        public string complementary_5_end_date_2 { get; set; }
+        [Description("")]
+        public string complementary_5_milestone_3 { get; set; }
+        [Description("")]
+        public string complementary_5_target_3 { get; set; }
+        [Description("")]
+        public string complementary_5_start_date_3 { get; set; }
+        [Description("")]
+        public string complementary_5_end_date_3 { get; set; }
+        [Description("")]
+        public string complementary_5_milestone_4 { get; set; }
+        [Description("")]
+        public string complementary_5_target_4 { get; set; }
+        [Description("")]
+        public string complementary_5_start_date_4 { get; set; }
+        [Description("")]
+        public string complementary_5_end_date_4 { get; set; }
+        [Description("")]
+        public string complementary_5_milestone_5 { get; set; }
+        [Description("")]
+        public string complementary_5_target_5 { get; set; }
+        [Description("")]
+        public string complementary_5_start_date_5 { get; set; }
+        [Description("")]
+        public string complementary_5_end_date_5 { get; set; }
+        [Description("")]
+        public string complementary_5_milestone_6 { get; set; }
+        [Description("")]
+        public string complementary_5_target_6 { get; set; }
+        [Description("")]
+        public string complementary_5_start_date_6 { get; set; }
+        [Description("")]
+        public string complementary_5_end_date_6 { get; set; }
+        [Description("")]
+        public string what_complementary_6_achievement_by_hiring_TFW { get; set; }
+        [Description("")]
+        public string complementary_6_milestone_1 { get; set; }
+        [Description("")]
+        public string complementary_6_target_1 { get; set; }
+        [Description("")]
+        public string complementary_6_start_date_1 { get; set; }
+        [Description("")]
+        public string complementary_6_end_date_1 { get; set; }
+        [Description("")]
+        public string complementary_6_milestone_2 { get; set; }
+        [Description("")]
+        public string complementary_6_target_2 { get; set; }
+        [Description("")]
+        public string complementary_6_start_date_2 { get; set; }
+        [Description("")]
+        public string complementary_6_end_date_2 { get; set; }
+        [Description("")]
+        public string complementary_6_milestone_3 { get; set; }
+        [Description("")]
+        public string complementary_6_target_3 { get; set; }
+        [Description("")]
+        public string complementary_6_start_date_3 { get; set; }
+        [Description("")]
+        public string complementary_6_end_date_3 { get; set; }
+        [Description("")]
+        public string complementary_6_milestone_4 { get; set; }
+        [Description("")]
+        public string complementary_6_target_4 { get; set; }
+        [Description("")]
+        public string complementary_6_start_date_4 { get; set; }
+        [Description("")]
+        public string complementary_6_end_date_4 { get; set; }
+        [Description("")]
+        public string complementary_6_milestone_5 { get; set; }
+        [Description("")]
+        public string complementary_6_target_5 { get; set; }
+        [Description("")]
+        public string complementary_6_start_date_5 { get; set; }
+        [Description("")]
+        public string complementary_6_end_date_5 { get; set; }
+        [Description("")]
+        public string complementary_6_milestone_6 { get; set; }
+        [Description("")]
+        public string complementary_6_target_6 { get; set; }
+        [Description("")]
+        public string complementary_6_start_date_6 { get; set; }
+        [Description("")]
+        public string complementary_6_end_date_6 { get; set; }
+        [Description("")]
+        public string signature_of_employer { get; set; }
+        [Description("")]
+        public string sign_printed_name_of_employer { get; set; }
+        [Description("")]
+        public string title_of_employer { get; set; }
+        [Description("")]
+        public string signing_date { get; set; }
+        [Description("")]
+        public bool signature_of_third_party { get; set; }
+        [Description("")]
+        public bool printed_name_of_third_party_rep { get; set; }
+        [Description("")]
+        public bool appt_sign_signature_of_employer { get; set; }
+        [Description("")]
+        public bool appt_sign_printed_name_of_employer { get; set; }
+        [Description("")]
+        public bool appt_sign_date { get; set; }
+        [Description("")]
+        public bool witness_signature { get; set; }
+        [Description("")]
+        public bool printed_name_of_witness { get; set; }
+        [Description("")]
+        public bool witness_sign_date { get; set; }
         [Description("")]
         public bool does_position_appear_on_GTO_yes { get; set; }
         [Description("")]
