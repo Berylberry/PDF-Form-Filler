@@ -23,7 +23,7 @@ namespace PDFFormFiller
         {
             var formatPDF = new FormatPDF();
             formatPDF.fillPDF();
-            MessageBox.Show("The form has been sucessfully filled and can be found on your desktop with the name filledForm");
+            MessageBox.Show(this, "The form has been sucessfully filled and can be found on your desktop with the name filledForm.pdf");
         }
     }
 }
