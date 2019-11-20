@@ -235,7 +235,183 @@ namespace PDFFormFiller.APIObject
         [Description("EMP5624_E[0].Page3[0].cb_other_member[0]")]
         public bool? is_third_party_member_other_free { get; set; }
         [Description("EMP5624_E[0].Page3[0].txtF_Other_specify2[0]")]
-        public bool third_party_other_member_free_specify { get; set; }
+        public string third_party_other_member_free_specify { get; set; }
+        [Description("EMP5624_E[0].Page3[0].txtF_position_title[0]")]
+        public string job_offer_title { get; set; }
+        [Description("EMP5624_E[0].Page3[0].txtF_code[0]")]
+        public string job_offer_NOC { get; set; }
+        [Description("EMP5624_E[0].Page3[0].txtF_position_title[1]")]
+        public string how_many_TFWsis_employer_requesting { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_MainDuties[0]")]
+        public string job_offer_main_duties { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_Date_E[0]")]
+        public string expected_employment_start_date { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_number_days[0]")]
+        public string expected_employment_duration_number { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_english1[0]")]
+        public bool expected_employment_duration_days { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_english1[1]")]
+        public bool expected_employment_duration_weeks { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_english1[2]")]
+        public bool expected_employment_duration_months { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_english1[3]")]
+        public bool expected_employment_duration_years { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_justification[0]")]
+        public string employment_duration_ratiionale { get; set; }
+        [Description("EMP5624_E[0].Page4[0].rb_job_syndic[0]")]
+        public bool is_job_positiion_part_of_a_uniion { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_OrallyIn[0]")]
+        public bool? is_oral_communication_required { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_english1[4]")]
+        public bool? oral_eng_ability { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_French1[0]")]
+        public bool? oral_fr_ability { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_English_French1[0]")]
+        public bool? oral_eng_and_fr_ability { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_TheOffer[0]")]
+        public bool? is_written_communication_required { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_english2[0]")]
+        public bool? eng_writing_ability { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_french2[0]")]
+        public bool? fr_writing_ability { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_English_French2[0]")]
+        public bool? eng_and_fr_writing_ability { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_TheOffer2[0]")]
+        public bool? is_specific_lang_communication_not_req { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_ProvideDetails2[0]")]
+        public string explain_specific_lang_not_required { get; set; }
+        [Description("EMP5624_E[0].Page4[0].chkB_TheOffer2[1]")]
+        public bool? is_lang_required_other_than_eng_and_fr { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_ProvideDetails3[0]")]
+        public string explain_other_lang_required { get; set; }
+        [Description("EMP5624_E[0].Page4[0].RadioButtonList[0]")]
+        public string min_qualify_req_for_job { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_AdditionalInformation[0]")]
+        public string min_qualify_req_for_job_additional_info { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_MainDuties[1]")]
+        public string min_experience_or_skills_for_job { get; set; }
+        [Description("EMP5624_E[0].Page4[0].Yes_E[0]")]
+        public bool have_you_tried_to_recruit_canada_residents_yes { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_AdditionalInformation[1]")]
+        public string have_you_tried_recruit_yes_explain_efforts { get; set; }
+        [Description("EMP5624_E[0].Page4[0].No_E[0]")]
+        public bool have_you_tried_to_recruit_canada_residents_no { get; set; }
+        [Description("EMP5624_E[0].Page4[0].txtF_No_AdditionalInformation[0]")]
+        public string have_you_tried_no_explain { get; set; }
+        [Description("EMP5624_E[0].Page5[0].rb_canadian_empl[0]")]
+        public bool have_employees_been_laid_off_in_position { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_canadian_how_many[0]")]
+        public string how_many_canadian_residents_laid_off { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_TET_how_many[0]")]
+        public string how_many_TFWs_laid_off { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_info[0]")]
+        public string layoffs_reasons { get; set; }
+        [Description("EMP5624_E[0].Page5[0].rb_TET_empl[0]")]
+        public bool will_hiring_TFW_affect_canadian_residents_negatively { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_No_add_info[0]")]
+        public string explain_impact_of_hiring_TFW { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_low_wage[0]")]
+        public string low_wage_for_position { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_high_wage[0]")]
+        public string high_wage_for_position { get; set; }
+        [Description("EMP5624_E[0].Page5[0].chkB_no_employees[0]")]
+        public bool there_are_currently_no_employees_working_at_this_position { get; set; }
+        [Description("EMP5624_E[0].Page5[0].rb_hours[0]")]
+        public bool is_job_offer_for_full_time_employment { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_IfNo[0]")]
+        public string not_full_time_explanation { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtFhours[0]")]
+        public string how_many_hours_will_TFW_work_each_day { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_week[0]")]
+        public string how_many_hours_will_TFW_work_each_week { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_month[0]")]
+        public string how_many_hours_will_TFW_work_each_month { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_salary_hours[0]")]
+        public string regular_wage_per_hour_for_TFW { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_salary_overtime[0]")]
+        public string overtime_wage_per_hour_for_TFW { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_salary_after[0]")]
+        public string overtime_wage_start_after_how_many_hours_per_day { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_hour_week[0]")]
+        public string overtime_wage_start_after_how_many_hours_per_week { get; set; }
+        [Description("EMP5624_E[0].Page5[0].rb_salary_conversion[0]")]
+        public bool is_wage_converted { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_yes_add_info[0]")]
+        public string wage_conversion_calculations { get; set; }
+        [Description("EMP5624_E[0].Page5[0].chkB_DisabilityInsurance[0]")]
+        public bool job_benefit_disability_insurance { get; set; }
+        [Description("EMP5624_E[0].Page5[0].chkB_DentalInsurance[0]")]
+        public bool job_benefit_dental_insurance { get; set; }
+        [Description("EMP5624_E[0].Page5[0].chkB_Pension[0]")]
+        public bool job_benefit_pension { get; set; }
+        [Description("EMP5624_E[0].Page5[0].chkB_ExtendedMed[0]")]
+        public bool job_benefit_extended_medical_insurance { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_OtherBenefits[0]")]
+        public string other_job_benefits { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_Days[0]")]
+        public string job_vacation_days_per_year { get; set; }
+        [Description("EMP5624_E[0].Page5[0].txtF_Remuneration[0]")]
+        public string job_vacation_renumeration { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_principal_activity[0]")]
+        public string principal_business_activity_at_work_location { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_commercial_name[0]")]
+        public string business_operating_name_at_work_location { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_where[0]")]
+        public string exact_TFW_work_location { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_City2[0]")]
+        public string TFW_work_loc_city { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_Province2[0]")]
+        public string TFW_work_loc_province { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_Postal_Code2[0]")]
+        public string TFW_work_loc_postal_code { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_where[1]")]
+        public string other_job_offer_work_location { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_City2[1]")]
+        public string other_job_offer_work_location_city { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_Province2[1]")]
+        public string other_job_offer_work_location_province { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_Postal_Code2[1]")]
+        public string other_job_offer_work_location_postal_code { get; set; }
+        [Description("EMP5624_E[0].Page6[0].rb_conflict[0]")]
+        public bool is_there_labour_dispute_at_any_location { get; set; }
+        [Description("EMP5624_E[0].Page6[0].txtF_yes_add_info[0]")]
+        public string dispute_explanation { get; set; }
+        [Description("EMP5624_E[0].Page6[0].rb_conflict[1]")]
+        public bool does_org_have_active_LMBP { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
+        [Description("")]
+        public bool does_position_appear_on_GTO_yes { get; set; }
         [Description("")]
         public bool does_position_appear_on_GTO_yes { get; set; }
         [Description("")]
