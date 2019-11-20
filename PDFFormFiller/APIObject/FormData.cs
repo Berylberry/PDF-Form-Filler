@@ -728,55 +728,197 @@ namespace PDFFormFiller.APIObject
         public string complementary_6_start_date_6 { get; set; }
         [Description("EMP5624_E[0].Page8[0].Table3[0].Row6[0].DateField12[0]")]
         public string complementary_6_end_date_6 { get; set; }
+        [Description("EMP5624_E[0].Page9[0].txtF_Employer_Signature[0]")]
+        public string sign_of_employer { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Employer_Print_Name[0]")]
         public string sign_printed_name_of_employer { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Employer_Title[0]")]
         public string title_of_employer { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Today_Date_1[0]")]
         public string signing_date { get; set; }
+        [Description("EMP5624_E[0].Page9[0].txtF_Employer_Signature[1]")]
+        public string sign_of_third_party_rep { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Employer_Print_Name[1]")]
-        public bool printed_name_of_third_party_rep { get; set; }
+        public string printed_name_of_third_party_rep { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Today_Date_1[1]")]
-        public bool third_party_sign_date { get; set; }
+        public string third_party_sign_date { get; set; }
+        [Description("EMP5624_E[0].Page9[0].txtF_Employer_Signature[2]")]
+        public string appt_sign_of_employer { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Employer_Print_Name[2]")]
-        public bool appt_sign_printed_name_of_employer { get; set; }
+        public string appt_sign_printed_name_of_employer { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Today_Date_1[2]")]
-        public bool appt_sign_date { get; set; }
+        public string appt_sign_date { get; set; }
+        [Description("EMP5624_E[0].Page9[0].txtF_Employer_Signature[3]")]
+        public string appt_sign_of_witness { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Employer_Print_Name[3]")]
-        public bool printed_name_of_witness { get; set; }
+        public string printed_name_of_witness { get; set; }
         [Description("EMP5624_E[0].Page9[0].txtF_Today_Date_1[3]")]
-        public bool witness_sign_date { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
-        [Description("")]
-        public bool does_position_appear_on_GTO_yes { get; set; }
+        public string witness_sign_date { get; set; }
+
+        //labour assessment processings
+        [Description("EMP5624_E[0].Page11[0].txtF_EMployer_Name[0]")]
+        public string LMI_fee_employer_name { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_CRA_Business_Number[0]")]
+        public string LMI_fee_employer_CRA_number { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Number_Positions[0]")]
+        public string number_of_positions_requested { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Processing_Fee[0]")]
+        public string total_processing_fee { get; set; }
+        [Description("EMP5624_E[0].Page11[0].rb_Payment[0]")]
+        public bool? payment_method { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Given_Names[0]")]
+        public string cardholder_name { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Applicant_Name[0]")]
+        public string employer_primary_contact_name { get; set; }
+        [Description("EMP5624_E[0].Page11[0].rb_Card_Type[0]")]
+        public string card_type { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Applicant_Name[1]")]
+        public string last_4_digits_of_card { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Charge[0]")]
+        public string authorized_amount { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Signature_E[0]")]
+        public string cardholder_signature { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Day[0]")]
+        public string signature_year { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Month[0]")]
+        public string signature_month { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Year[0]")]
+        public string signature_day { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Card_Number[0]")]
+        public string credit_card_number { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Month[1]")]
+        public string credit_card_expiry_date_month { get; set; }
+        [Description("EMP5624_E[0].Page11[0].txtF_Year[1]")]
+        public string credit_card_expiry_date_year { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Family_Name1[0]")]
+        public string worker_1_last_name { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_First_Name1[0]")]
+        public string worker_1_first_name { get; set; }
+        [Description("EMP5624_E[0].Page12[0].rb_Gender1[0]")]
+        public string worker_1_gender { get; set; } = "Male";
+        [Description("EMP5624_E[0].Page12[0].txtF_Date_of_Birth1[0]")]
+        public string worker_1_date_of_birth { get; set; } = "1988-06-23";
+        [Description("EMP5624_E[0].Page12[0].txtF_Citizenship1[0]")]
+        public string worker_1_citizenship { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_City1[0]")]
+        public string worker_1_city_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Country1[0]")]
+        public string worker_1_country_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_City1b[0]")]
+        public string worker_1_city_inside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Country1b[0]")]
+        public string worker_1_country_in_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].Temporary_foreign_worker1[0]")]
+        public bool? worker_1_immigration_status_if_in_canada_TFW { get; set; }
+        [Description("EMP5624_E[0].Page12[0].student[0]")]
+        public bool? worker_1_immigration_status_if_in_canada_student { get; set; }
+        [Description("EMP5624_E[0].Page12[0].visitor[0]")]
+        public bool? worker_1_immigration_status_if_in_canada_visitor { get; set; }
+        [Description("EMP5624_E[0].Page12[0].refugie_demandeur[0]")]
+        public bool? worker_1_immigration_status_if_in_canada_refugee { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Family_Name2[0]")]
+        public string worker_2_last_name { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_First_Name2[0]")]
+        public string worker_2_first_name { get; set; }
+        [Description("EMP5624_E[0].Page12[0].rb_Gender2[0]")]
+        public string worker_2_gender { get; set; } = "Male";
+        [Description("EMP5624_E[0].Page12[0].txtF_Date_of_Birth2[0]")]
+        public string worker_2_date_of_birth { get; set; } = "1988-06-23";
+        [Description("EMP5624_E[0].Page12[0].txtF_Citizenship1[1]")]
+        public string worker_2_citizenship { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_City2[0]")]
+        public string worker_2_city_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Country2[0]")]
+        public string worker_2_country_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_City2b[0]")]
+        public string worker_2_city_inside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Country2b[0]")]
+        public string worker_2_country_in_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].Temporary_foreign_worker2[0]")]
+        public bool? worker_2_immigration_status_if_in_canada_TFW { get; set; }
+        [Description("EMP5624_E[0].Page12[0].student2[0]")]
+        public bool? worker_2_immigration_status_if_in_canada_student { get; set; }
+        [Description("EMP5624_E[0].Page12[0].visitor2[0]")]
+        public bool? worker_2_immigration_status_if_in_canada_visitor { get; set; }
+        [Description("EMP5624_E[0].Page12[0].refugie_demandeur2[0]")]
+        public bool? worker_2_immigration_status_if_in_canada_refugee { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Family_Name3[0]")]
+        public string worker_3_last_name { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_First_Name2[1]")]
+        public string worker_3_first_name { get; set; }
+        [Description("EMP5624_E[0].Page12[0].rb_Gender3[0]")]
+        public string worker_3_gender { get; set; } = "Male";
+        [Description("EMP5624_E[0].Page12[0].txtF_Date_of_Birth3[0]")]
+        public string worker_3_date_of_birth { get; set; } = "1988-06-23";
+        [Description("EMP5624_E[0].Page12[0].txtF_Citizenship3[0]")]
+        public string worker_3_citizenship { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_City3[0]")]
+        public string worker_3_city_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Country3[0]")]
+        public string worker_3_country_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_City3b[0]")]
+        public string worker_3_city_inside_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].txtF_Country1b[1]")]
+        public string worker_3_country_in_canada { get; set; }
+        [Description("EMP5624_E[0].Page12[0].Temporary_foreign_worker3[0]")]
+        public bool? worker_3_immigration_status_if_in_canada_TFW { get; set; }
+        [Description("EMP5624_E[0].Page12[0].student3[0]")]
+        public bool? worker_3_immigration_status_if_in_canada_student { get; set; }
+        [Description("EMP5624_E[0].Page12[0].visitor3[0]")]
+        public bool? worker_3_immigration_status_if_in_canada_visitor { get; set; }
+        [Description("EMP5624_E[0].Page12[0].refugie_demandeur3[0]")]
+        public bool? worker_3_immigration_status_if_in_canada_refugee { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_Family_Name4[0]")]
+        public string worker_4_last_name { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_First_Name4[0]")]
+        public string worker_4_first_name { get; set; }
+        [Description("EMP5624_E[0].Page13[0].rb_Gender4[0]")]
+        public string worker_4_gender { get; set; } = "Male";
+        [Description("EMP5624_E[0].Page13[0].txtF_Date_of_Birth4[0]")]
+        public string worker_4_date_of_birth { get; set; } = "1988-06-23";
+        [Description("EMP5624_E[0].Page13[0].txtF_Citizenship4[0]")]
+        public string worker_4_citizenship { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_City4[0]")]
+        public string worker_4_city_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_Country4[0]")]
+        public string worker_4_country_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_City4b[0]")]
+        public string worker_4_city_inside_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_Country4b[0]")]
+        public string worker_4_country_in_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].Temporary_foreign_worker4[0]")]
+        public bool? worker_4_immigration_status_if_in_canada_TFW { get; set; }
+        [Description("EMP5624_E[0].Page13[0].student4[0]")]
+        public bool? worker_4_immigration_status_if_in_canada_student { get; set; }
+        [Description("EMP5624_E[0].Page13[0].visitor4[0]")]
+        public bool? worker_4_immigration_status_if_in_canada_visitor { get; set; }
+        [Description("EMP5624_E[0].Page13[0].refugie_demandeur4[0]")]
+        public bool? worker_4_immigration_status_if_in_canada_refugee { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_Family_Name5[0]")]
+        public string worker_5_last_name { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_First_Name5[0]")]
+        public string worker_5_first_name { get; set; }
+        [Description("EMP5624_E[0].Page13[0].rb_Gender5[0]")]
+        public string worker_5_gender { get; set; } = "Male";
+        [Description("EMP5624_E[0].Page13[0].txtF_Date_of_Birth5[0]")]
+        public string worker_5_date_of_birth { get; set; } = "1988-06-23";
+        [Description("EMP5624_E[0].Page13[0].txtF_Citizenship5[0]")]
+        public string worker_5_citizenship { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_City5[0]")]
+        public string worker_5_city_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_Country5[0]")]
+        public string worker_5_country_outside_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_City5b[0]")]
+        public string worker_5_city_inside_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].txtF_Country5b[0]")]
+        public string worker_5_country_in_canada { get; set; }
+        [Description("EMP5624_E[0].Page13[0].Temporary_foreign_worker5[0]")]
+        public bool? worker_5_immigration_status_if_in_canada_TFW { get; set; }
+        [Description("EMP5624_E[0].Page13[0].student5[0]")]
+        public bool? worker_5_immigration_status_if_in_canada_student { get; set; }
+        [Description("EMP5624_E[0].Page13[0].visitor5[0]")]
+        public bool? worker_5_immigration_status_if_in_canada_visitor { get; set; }
+        [Description("EMP5624_E[0].Page13[0].refugie_demandeur5[0]")]
+        public bool? worker_5_immigration_status_if_in_canada_refugee { get; set; }
     }
 }
